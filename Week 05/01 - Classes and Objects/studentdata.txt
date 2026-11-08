@@ -1,0 +1,30 @@
+Ali, Ai and DS, 90
+Sara, IT, 49
+Karl, Cyber, 55
+
+class Student:
+    def __init__(self, name, program, mark):
+        self.name = name
+        self.program = program
+        self.mark = mark
+
+# creating an empty list
+students = []
+
+# read student date from file
+with open('studentdata.txt', 'r') as file:
+    for line in file:
+        name, program, mark = line.strip().split(',')
+        s = Student(name, program, int(mark))
+        students.append(s)
+
+#Display all student objects
+print('STUDENT DETAILS')
+print('-' * 20)
+
+for student in students:
+    print('name:', student.name)
+    print('program:', student.program)
+    print('mark:', student.mark)
+    print('-' * 20)
+print('Total Students:', len(students))

@@ -1,0 +1,8 @@
+dataset,rows_loaded,rows_expected,percent,status
+survey_2026,1187,1200,98.91666666666666,WARNING
+sales_q3,950,1000,95.0,WARNING
+web_traffic,600,1000,60.0,OK
+customer_feedback,1250,1000,125.0,OVER LIMIT
+sensor_logs,400,800,50.0,OK
+image_labels,2100,2000,105.0,OVER LIMIT
+patient_survey,1500,2000,75.0,OK
