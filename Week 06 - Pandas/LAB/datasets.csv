@@ -1,0 +1,8 @@
+dataset,rows_loaded,rows_expected
+survey_2026,1187,1200
+sales_q3,950,1000
+web_traffic,600,1000
+customer_feedback,1250,1000
+sensor_logs,400,800
+image_labels,2100,2000
+patient_survey,1500,2000
