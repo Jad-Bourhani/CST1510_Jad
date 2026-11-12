@@ -1,0 +1,6 @@
+Survey_2026 , rows_loaded=1187 , rows_expected=1200  
+CENSUS_DATA,ROWS_LOADED=950,ROWS_EXPECTED=1000
+  sales_q3,rows_loaded=700 ,rows_expected=1000
+Weather_Log , rows_loaded = 1500 , rows_expected = 1500
+   Clinic_Records   ,   Rows_Loaded=400,Rows_Expected=500   
+traffic_cams,ROWS_loaded=2000,rows_EXPECTED=1950
